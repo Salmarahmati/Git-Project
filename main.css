@@ -1,0 +1,49 @@
+main {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(173, 209, 218));
+}
+
+.tital {
+    color: rgb(51, 43, 43);
+    font-size: 50px;
+    text-align: center;
+}
+
+.row1 {
+    width: 100%;
+}
+
+.row1 div {
+    display: inline-block;
+    width: 25%;
+    padding: 4%;
+    text-align: center;
+}
+
+.row2 {
+    width: 100%;
+}
+
+.row2 div {
+    display: inline-block;
+    width: 25%;
+    padding: 4%;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(84, 95, 97);
+    color: rgb(226, 162, 42);
+    font-size: 38px;
+    width: 100%;
+}
+
+footer div {
+    width: 80%;
+    margin: auto;
+}
+
+footer div h1 {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
