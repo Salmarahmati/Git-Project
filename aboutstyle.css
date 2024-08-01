@@ -1,28 +1,36 @@
-#pic{
-   background-image:url(imgproject/hero-bg.jpg); 
-   background-color: rgba(2, 3, 16, 0.185);
-   /* opacity: 0.5; */
+#pic {
+   background-image: url(imgproject/hero-bg.jpg);
    text-align: center;
    padding: 40px;
-   height: 600px;
+   height: 800px;
 }
 
-
-h1{
-   font-size: 90px;
-
+.picdiv {
+   background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(173, 209, 218));
+   width: 1540px;
+   /* max-width: 100%; */
+   height: 760px;
 }
-.btn1{
+
+#pic h1 {
+   font-size: 70px;
+   margin-top: 250px;
+   margin-bottom: 60px;
+}
+
+.btn1 {
    border-radius: 20px;
    background-color: rgb(15, 15, 102);
    color: white;
    border: 1px solid transparent;
-   padding: 10px;
+   padding: 15px 40px;
+
 }
-.btn2{
+
+.btn2 {
    border: 1px solid transparent;
    border-radius: 20px;
-   background-color:rgba(223, 151, 9, 0.908);
-   padding: 10px;
+   background-color: rgba(223, 151, 9, 0.908);
+   padding: 15px 40px;
    color: white;
 }

@@ -1,11 +1,19 @@
 main {
-    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(173, 209, 218));
+    background-image: linear-gradient(to right, rgba(39, 38, 38, 0.329), rgba(167, 224, 238, 0.808));
+    width: 100%;
+}
+
+.rows {
+    width: 80%;
+    margin: auto;
 }
 
 .tital {
     color: rgb(51, 43, 43);
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
 }
 
 .row1 {
@@ -14,9 +22,10 @@ main {
 
 .row1 div {
     display: inline-block;
-    width: 25%;
+    width: 33%;
     padding: 4%;
     text-align: center;
+
 }
 
 .row2 {
@@ -25,9 +34,18 @@ main {
 
 .row2 div {
     display: inline-block;
-    width: 25%;
+    width: 33%;
     padding: 4%;
     text-align: center;
+    padding-bottom: 150px;
+}
+
+.row2 div h1 {
+    font-size: 35px;
+}
+
+.row1 div h1 {
+    font-size: 35px;
 }
 
 footer {
@@ -44,6 +62,8 @@ footer div {
 
 footer div h1 {
     display: inline-block;
+    padding-top: 40px;
+    padding-bottom: 40px;
     width: 30%;
     text-align: center;
 }
