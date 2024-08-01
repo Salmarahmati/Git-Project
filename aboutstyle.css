@@ -1,0 +1,28 @@
+#pic{
+   background-image:url(imgproject/hero-bg.jpg); 
+   background-color: rgba(2, 3, 16, 0.185);
+   /* opacity: 0.5; */
+   text-align: center;
+   padding: 40px;
+   height: 600px;
+}
+
+
+h1{
+   font-size: 90px;
+
+}
+.btn1{
+   border-radius: 20px;
+   background-color: rgb(15, 15, 102);
+   color: white;
+   border: 1px solid transparent;
+   padding: 10px;
+}
+.btn2{
+   border: 1px solid transparent;
+   border-radius: 20px;
+   background-color:rgba(223, 151, 9, 0.908);
+   padding: 10px;
+   color: white;
+}
